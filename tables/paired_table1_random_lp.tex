@@ -1,0 +1,16 @@
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & regret & $\Delta$ vs Unweighted & wins & $p$ & $\Delta$ vs ours & wins & $p$ \\
+\midrule
+Iterative Exp. Directed & 0.3451 & -0.0112 & 66\% & 0.007 &  &  &  \\
+Exp. Two-Sided & 0.3535 & -0.0029 & 60\% & 0.068 & +0.0083 & 38\% & 0.009 \\
+Directed & 0.3531 & -0.0033 & 56\% & 0.157 & +0.0080 & 39\% & 0.009 \\
+Unweighted & 0.3564 &  &  &  & +0.0112 & 34\% & 0.007 \\
+RC Weight & 0.3549 & -0.0014 & 44\% & 0.793 & +0.0098 & 41\% & 0.018 \\
+Validation Only & 0.4184 & +0.0620 & 24\% & < 0.001 & +0.0733 & 19\% & < 0.001 \\
+SPO Influence Weight & 0.3509 & -0.0054 & 54\% & 0.067 & +0.0058 & 45\% & 0.090 \\
+Clean ERM (oracle) & 0.2785 & -0.0779 & 93\% & < 0.001 & -0.0666 & 90\% & < 0.001 \\
+SPO+ Val Only & 0.4854 & +0.1290 & 5\% & < 0.001 & +0.1402 & 5\% & < 0.001 \\
+SPO+ Finetune & 0.3666 & +0.0102 & 43\% & 0.052 & +0.0214 & 29\% & < 0.001 \\
+\bottomrule
+\end{tabular}

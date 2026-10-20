@@ -1,0 +1,10 @@
+# Versions used for the paper's experiments (Python 3.11).
+numpy==1.26.4
+scipy>=1.14
+pandas>=2.2
+scikit-learn>=1.6
+torch>=2.3
+matplotlib>=3.10
+gurobipy>=11
+pyepo==1.1.1
+pytest>=8

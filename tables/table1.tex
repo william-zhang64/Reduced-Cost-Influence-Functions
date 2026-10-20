@@ -1,0 +1,16 @@
+\begin{tabular}{lccc}
+\toprule
+Method & Random LP & Shortest Path & NN Upstream \\
+\midrule
+Iterative Exp. Directed & \textbf{0.3451 $\pm$ 0.0133} & \textbf{0.9437 $\pm$ 0.0172} & 1.4511 $\pm$ 0.0187 \\
+Exp. Two-Sided & 0.3535 $\pm$ 0.0129 & 1.0009 $\pm$ 0.0175 & 1.4211 $\pm$ 0.0196 \\
+Directed & 0.3531 $\pm$ 0.0129 & 0.9825 $\pm$ 0.0171 & \textbf{1.3958 $\pm$ 0.0217} \\
+Unweighted & 0.3564 $\pm$ 0.0130 & 1.0029 $\pm$ 0.0169 & 1.4317 $\pm$ 0.0198 \\
+RC Weight & 0.3549 $\pm$ 0.0131 & 1.0035 $\pm$ 0.0169 & 1.4255 $\pm$ 0.0227 \\
+Validation Only & 0.4184 $\pm$ 0.0191 & 0.9989 $\pm$ 0.0181 & 1.4208 $\pm$ 0.0228 \\
+SPO Influence Weight & 0.3509 $\pm$ 0.0124 & 0.9560 $\pm$ 0.0158 & 1.4626 $\pm$ 0.0183 \\
+Clean ERM (oracle) & 0.2785 $\pm$ 0.0109 & 0.8513 $\pm$ 0.0171 & 1.3452 $\pm$ 0.0190 \\
+SPO+ Val Only & 0.4854 $\pm$ 0.0216 & 1.0914 $\pm$ 0.0182 & -- \\
+SPO+ Finetune & 0.3666 $\pm$ 0.0140 & 1.0042 $\pm$ 0.0176 & -- \\
+\bottomrule
+\end{tabular}
